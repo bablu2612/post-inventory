@@ -4,7 +4,7 @@
 Project:    Acropos - Car Dealer HTML Template
 Version:    1.1
 Last change:    25/Jan/2019
-Primary use:    Car Dealer 
+Primary use:    Car Dealer
 -------------------------------------------------------------------*/
 
 
@@ -12,8 +12,8 @@ Primary use:    Car Dealer
 [Table of contents]
 
 01. Main & Elements
-    02. Header 
-    03. Content 
+    02. Header
+    03. Content
         03.01. Slider (Banner)
         03.02. Car Items
         03.03. Blog Items
@@ -66,8 +66,8 @@ section {
 }
 
 .primary-button a:hover {
-    color: #1e1e1e;
-    background-color: #f4c23d
+    color: #fff;
+    background-color: #2959ad
 }
 
 #search button {
@@ -94,13 +94,13 @@ section {
 }
 
 #search button:hover {
-    color: #1e1e1e;
-    background-color: #f4c23d!important
+    color: #fff;
+    background-color: #2959ad!important
 }
 
 .secondary-button a {
     display: inline-block;
-    background: #f4c23d;
+    background: #2959ad;
     padding: 10px 20px;
     text-align: center;
     letter-spacing: 0.5px;
@@ -108,7 +108,7 @@ section {
     font-weight: 600;
     border-radius: 5px;
     text-transform: uppercase;
-    color: #1e1e1e;
+    color: #fff;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s
@@ -120,7 +120,7 @@ section {
 }
 
 .secondary-button a:hover {
-    color: #1e1e1e;
+    color: #fff;
     background-color: #fff
 }
 
@@ -131,7 +131,7 @@ section {
     font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
-    color: #1e1e1e;
+    color: #fff;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s
@@ -222,8 +222,8 @@ section {
     position: fixed;
     top: 15px;
     right: 15px;
-    color: #1e1e1e;
-    background-color: #f4c23d;
+    color: #fff;
+    background-color: #2959ad;
     border-color: transparent;
     opacity: 1;
     padding: 10px 17px;
@@ -266,13 +266,13 @@ section {
 .preloader-bounce>span:nth-child(2) {
     -webkit-animation-delay: 0.2s;
     animation-delay: 0.2s;
-    background: #1e1e1e
+    background: #fff
 }
 
 .preloader-bounce>span:nth-child(3) {
     -webkit-animation-delay: 0.3s;
     animation-delay: 0.3s;
-    background: #f4c23d
+    background: #2959ad
 }
 
 @-webkit-keyframes bounce {
@@ -312,7 +312,7 @@ section {
 }
 
 .pagination-content ul li a {
-    color: #1e1e1e;
+    color: #fff;
     font-size: 12px;
     font-weight: 700;
     width: 40px;
@@ -321,7 +321,7 @@ section {
     text-align: center;
     line-height: 40px;
     border-radius: 3px;
-    background-color: #f4c23d;
+    background-color: #2959ad;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s
@@ -375,7 +375,7 @@ section {
 
 .page-heading .heading-content-bg .heading-content h2 em {
     font-style: normal;
-    color: #f4c23d
+    color: #2959ad
 }
 
 .page-heading .heading-content-bg .heading-content p {
@@ -384,7 +384,7 @@ section {
     letter-spacing: 1px;
     font-weight: 300;
     text-transform: uppercase;
-    color: #f4c23d
+    color: #2959ad
 }
 
 .page-heading .heading-content-bg .heading-content p a {
@@ -395,7 +395,7 @@ section {
 }
 
 .page-heading .heading-content-bg .heading-content p a:hover {
-    color: #f4c23d
+    color: #2959ad
 }
 
 .page-heading .heading-content-bg .heading-content p em {
@@ -409,8 +409,8 @@ section {
 }
 
 .section-heading .icon i {
-    color: #1e1e1e;
-    background-color: #f4c23d;
+    color: #fff;
+    background-color: #2959ad;
     border-radius: 50%;
     font-size: 18px;
     width: 44px;
@@ -439,7 +439,7 @@ section {
     margin-top: 0px;
     margin-bottom: 0px;
     font-size: 20px;
-    color: #1e1e1e;
+    color: #fff;
     font-weight: 700;
     text-transform: uppercase
 }
@@ -462,20 +462,20 @@ section {
     margin-top: 0px;
     margin-bottom: 5px;
     font-size: 20px;
-    color: #1e1e1e;
+    color: #fff;
     font-weight: 700;
     text-transform: uppercase
 }
 
 .sep-section-heading h2 em {
     font-style: normal;
-    color: #f4c23d
+    color: #2959ad
 }
 
 .sep-section-heading h2:after {
     width: 30px;
     height: 3px;
-    background-color: #1e1e1e;
+    background-color: #fff;
     left: 0;
     top: 35px;
     position: absolute;
@@ -503,7 +503,7 @@ section {
 }
 
 .scrolled-header #cssmenu>ul>li>a {
-    color: #1e1e1e!important
+    color: #fff!important
 }
 
 .scrolled-header #cssmenu>ul>li:hover>a {
@@ -511,11 +511,11 @@ section {
 }
 
 .scrolled-header #cssmenu>ul>li.has-sub>a:after {
-    background: #1e1e1e!important
+    background: #fff!important
 }
 
 .scrolled-header #cssmenu>ul>li.has-sub>a:before {
-    background: #1e1e1e!important
+    background: #fff!important
 }
 
 .scrolled-header #cssmenu ul ul li:hover>a,
@@ -617,7 +617,7 @@ section {
 }
 
 .site-header #cssmenu>ul>li:hover>a {
-    color: #f4c23d
+    color: #2959ad
 }
 
 .site-header #cssmenu>ul>li.has-sub>a {
@@ -722,7 +722,7 @@ section {
 
 .site-header #cssmenu ul ul li:hover>a,
 .site-header #cssmenu ul ul li a:hover {
-    color: #f4c23d
+    color: #2959ad
 }
 
 .site-header #cssmenu ul ul li.has-sub>a:after {
@@ -769,7 +769,7 @@ section {
 
 @media (max-width:767px) {
     .site-header {
-        background-color: #f4c23d;
+        background-color: #2959ad;
         -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15)
     }
@@ -778,7 +778,7 @@ section {
 @media (max-width:767px) {
     .site-header #cssmenu>ul>li>a {
         padding: 16px 15px;
-        color: #1e1e1e
+        color: #fff
     }
 }
 
@@ -875,8 +875,8 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
         content: '\f0c9';
         font-family: 'FontAwesome';
         float: right;
-        color: #1e1e1e;
-        background-color: #f4c23d;
+        color: #fff;
+        background-color: #2959ad;
         display: inline-block;
         width: 46px;
         height: 46px;
@@ -1031,7 +1031,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .Modern-Slider .NextArrow:hover {
-        background: #f4c23d
+        background: #2959ad
     }
 
     .Modern-Slider .NextArrow:before {
@@ -1059,7 +1059,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .Modern-Slider .PrevArrow:hover {
-        background: #f4c23d
+        background: #2959ad
     }
 
     .Modern-Slider .PrevArrow:before {
@@ -1086,7 +1086,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
         float: left;
         width: 0px;
         height: 5px;
-        background: #f4c23d;
+        background: #2959ad;
         position: absolute;
         left: 0px;
         bottom: 0px
@@ -1111,7 +1111,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .Modern-Slider .item h3 em {
-        color: #f4c23d;
+        color: #2959ad;
         font-style: normal
     }
 
@@ -1310,7 +1310,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     /* 03.01. Banner Ends */
 
     /* 03.02. Car Items Starts */
-    
+
     section.top-slider-features .slider-top-features {
         position: relative;
         background-color: #fff;
@@ -1361,7 +1361,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
         margin-bottom: 5px;
         font-size: 17px;
         font-weight: 700;
-        color: #1e1e1e
+        color: #fff
     }
 
     section.top-slider-features .slider-top-features .car-item .down-content span {
@@ -1405,8 +1405,8 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     section.top-slider-features .slider-top-features .owl-nav .owl-next span:hover {
-        background-color: #f4c23d;
-        color: #1e1e1e
+        background-color: #2959ad;
+        color: #fff
     }
 
     section.top-slider-features .slider-top-features .owl-nav .owl-prev {
@@ -1431,8 +1431,8 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     section.top-slider-features .slider-top-features .owl-nav .owl-prev span:hover {
-        background-color: #f4c23d;
-        color: #1e1e1e
+        background-color: #2959ad;
+        color: #fff
     }
 
     section.top-slider-features .slider-top-features .owl-dots {
@@ -1472,9 +1472,9 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
 
     .on-grids .car-item .thumb-content .car-banner a,
     .recent-cars .car-item .thumb-content .car-banner a {
-        background-color: #f4c23d;
+        background-color: #2959ad ;
         border-radius: 3px;
-        color: #1e1e1e;
+        color: #ffffff;
         font-size: 13px;
         font-weight: 700;
         text-transform: uppercase;
@@ -1566,17 +1566,17 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
 
     .on-grids .car-item .down-content ul li .item:hover,
     .recent-cars .car-item .down-content ul li .item:hover {
-        background-color: #f4c23d
+        background-color: #2959ad
     }
 
     .on-grids .car-item .down-content ul li .item:hover i,
     .recent-cars .car-item .down-content ul li .item:hover i {
-        color: #1e1e1e
+        color: #fff
     }
 
     .on-grids .car-item .down-content ul li .item:hover p,
     .recent-cars .car-item .down-content ul li .item:hover p {
-        color: #1e1e1e
+        color: #fff
     }
 
     .on-grids .car-item .down-content ul li .item i,
@@ -1618,9 +1618,9 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .on-listing .car-item .thumb-content .car-banner a {
-        background-color: #f4c23d;
+        background-color: #2959ad;
         border-radius: 3px;
-        color: #1e1e1e;
+        color: #fff;
         font-size: 13px;
         font-weight: 700;
         text-transform: uppercase;
@@ -1667,7 +1667,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
         margin-top: 0px;
         font-size: 17px;
         font-weight: 700;
-        color: #1e1e1e
+        color: #fff
     }
 
     .on-listing .car-item .down-content span {
@@ -1716,15 +1716,15 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .on-listing .car-item .down-content ul li .item:hover {
-        background-color: #f4c23d
+        background-color: #2959ad
     }
 
     .on-listing .car-item .down-content ul li .item:hover i {
-        color: #1e1e1e
+        color: #fff
     }
 
     .on-listing .car-item .down-content ul li .item:hover p {
-        color: #1e1e1e
+        color: #fff
     }
 
     .on-listing .car-item .down-content ul li .item i {
@@ -1759,7 +1759,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .single-car .car-details h4 {
-        color: #1e1e1e;
+        color: #fff;
         margin-top: 8px;
         font-size: 24px;
         font-weight: 700
@@ -1805,8 +1805,8 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
         text-align: center;
         line-height: 40px;
         border-radius: 3px;
-        background-color: #f4c23d;
-        color: #1e1e1e
+        background-color: #2959ad;
+        color: #fff
     }
 
     .single-car .car-details ul.car-info li p {
@@ -1866,20 +1866,20 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     .more-details .item .contact-info i {
         width: 40px;
         height: 40px;
-        background-color: #f4c23d;
+        background-color: #2959ad;
         text-align: center;
         line-height: 40px;
         border-radius: 3px;
         display: inline-block;
         font-size: 14px;
-        color: #1e1e1e;
+        color: #fff;
         margin-right: 15px
     }
 
     .more-details .item .contact-info span {
         font-size: 13px;
         font-weight: 400;
-        color: #1e1e1e
+        color: #fff
     }
 
     @media (max-width:991px) {
@@ -1940,9 +1940,9 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .similar-car .car-item .thumb-content .car-banner a {
-        background-color: #f4c23d;
+        background-color: #2959ad;
         border-radius: 3px;
-        color: #1e1e1e;
+        color: #fff;
         font-size: 13px;
         font-weight: 700;
         text-transform: uppercase;
@@ -2017,15 +2017,15 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .similar-car .car-item .down-content ul li .item:hover {
-        background-color: #f4c23d
+        background-color: #2959ad
     }
 
     .similar-car .car-item .down-content ul li .item:hover i {
-        color: #1e1e1e
+        color: #fff
     }
 
     .similar-car .car-item .down-content ul li .item:hover p {
-        color: #1e1e1e
+        color: #fff
     }
 
     .similar-car .car-item .down-content ul li .item i {
@@ -2086,9 +2086,9 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .latest-news .item .thumb-content .date-post a {
-        background-color: #f4c23d;
+        background-color: #2959ad;
         border-radius: 3px;
-        color: #1e1e1e;
+        color: #fff;
         font-size: 13px;
         font-weight: 700;
         text-transform: uppercase;
@@ -2123,7 +2123,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
         margin-top: 15px;
         font-size: 17px;
         font-weight: 700;
-        color: #1e1e1e
+        color: #fff
     }
 
     .latest-news .item .down-content span {
@@ -2164,9 +2164,9 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .blog-page .blog-grid-post .item .thumb-content .date-post a {
-        background-color: #f4c23d;
+        background-color: #2959ad;
         border-radius: 3px;
-        color: #1e1e1e;
+        color: #fff;
         font-size: 13px;
         font-weight: 700;
         text-transform: uppercase;
@@ -2201,7 +2201,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
         margin-top: 15px;
         font-size: 17px;
         font-weight: 700;
-        color: #1e1e1e
+        color: #fff
     }
 
     .blog-page .blog-grid-post .item .down-content ul {
@@ -2270,9 +2270,9 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .blog-page .blog-classic-post .item .thumb-content .date-post a {
-        background-color: #f4c23d;
+        background-color: #2959ad;
         border-radius: 3px;
-        color: #1e1e1e;
+        color: #fff;
         font-size: 13px;
         font-weight: 700;
         text-transform: uppercase;
@@ -2307,7 +2307,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
         margin-top: 15px;
         font-size: 17px;
         font-weight: 700;
-        color: #1e1e1e
+        color: #fff
     }
 
     .blog-page .blog-classic-post .item .down-content ul {
@@ -2425,7 +2425,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
         color: #2959ad;
         font-family: 'georgia', serif;
         line-height: 26px;
-        border-left: 3px solid #f4c23d
+        border-left: 3px solid #2959ad
     }
 
     .blog-page .single-post .comments {
@@ -2473,7 +2473,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     .blog-page .single-post .comments .comments-content .continue-button a {
         font-weight: 600;
         font-size: 11px;
-        color: #1e1e1e
+        color: #fff
     }
 
     .blog-page .single-post .comments .comments-content .continue-button a i {
@@ -2482,7 +2482,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .blog-page .single-post .comments .comments-content .continue-button a:hover {
-        color: #f4c23d;
+        color: #2959ad;
         -webkit-transition: all 0.5s;
         -o-transition: all 0.5s;
         transition: all 0.5s
@@ -2531,7 +2531,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .blog-page .single-post .leave-comment input:focus {
-        border-color: #f4c23d
+        border-color: #2959ad
     }
 
     .blog-page .single-post .leave-comment textarea {
@@ -2553,13 +2553,13 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .blog-page .single-post .leave-comment textarea:focus {
-        border-color: #f4c23d
+        border-color: #2959ad
     }
-    
+
     /* 03.02. Blog Items Ends */
 
     /* 03.04. Contact Starts */
-    
+
     #map {
         width: 100%;
         height: 500px;
@@ -2580,7 +2580,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
         margin-bottom: 0px;
         padding-bottom: 10px;
         font-size: 15px;
-        color: #1e1e1e;
+        color: #fff;
         font-weight: 700;
         text-transform: uppercase;
         position: relative
@@ -2610,19 +2610,19 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
         width: 40px;
         height: 40px;
         border-radius: 3px;
-        background-color: #f4c23d;
+        background-color: #2959ad;
         text-align: center;
         line-height: 40px;
         display: inline-block;
         font-size: 15px;
-        color: #1e1e1e;
+        color: #fff;
         margin-right: 15px
     }
 
     .contact-content .contact-info .info-list span {
         font-size: 14px;
         font-weight: 400;
-        color: #1e1e1e
+        color: #fff
     }
 
     @media (max-width:991px) {
@@ -2652,7 +2652,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .contact-content .send-message input:focus {
-        border-color: #f4c23d
+        border-color: #2959ad
     }
 
     .contact-content .send-message textarea {
@@ -2671,7 +2671,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .contact-content .send-message textarea:focus {
-        border-color: #f4c23d
+        border-color: #2959ad
     }
 
     @media (max-width:991px) {
@@ -2723,7 +2723,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
 
     .call-to-action .call-to-action-content p em {
         font-style: normal;
-        color: #f4c23d;
+        color: #2959ad;
         font-weight: 600
     }
 
@@ -2766,7 +2766,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
 
     .service-item i {
         font-size: 24px;
-        color: #1e1e1e;
+        color: #fff;
         width: 50px;
         height: 50px;
         background-color: transparent;
@@ -2774,7 +2774,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
         text-align: center;
         line-height: 50px;
         border-radius: 50%;
-        background-color: #f4c23d;
+        background-color: #2959ad;
         -webkit-transition: all 0.5s;
         -o-transition: all 0.5s;
         transition: all 0.5s
@@ -2801,7 +2801,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
             display: none
         }
     }
-    
+
     @media (max-width:991px) {
         .features-search-section {
             margin-top: 30px
@@ -2819,7 +2819,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
         padding: 0px 30px 30px 30px;
         width: 100%;
-        border-top: 3px solid #f4c23d
+        border-top: 3px solid #2959ad
     }
 
     @media (max-width:991px) {
@@ -2837,8 +2837,8 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .features-search-section .search-content .search-heading .icon i {
-        color: #1e1e1e;
-        background-color: #f4c23d;
+        color: #fff;
+        background-color: #2959ad;
         border-radius: 50%;
         font-size: 18px;
         width: 44px;
@@ -2853,7 +2853,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     .features-search-section .search-content .search-heading .icon i:after {
         width: 44px;
         height: 3px;
-        background-color: #f4c23d;
+        background-color: #2959ad;
         position: absolute;
         left: 50%;
         -webkit-transform: translateX(-50%);
@@ -2905,11 +2905,11 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .features-search-section .search-content .search-form select option {
-        color: #1e1e1e
+        color: #fff
     }
 
     .features-search-section .search-content .search-form select:focus {
-        border-color: #f4c23d
+        border-color: #2959ad
     }
 
     .features-search-section .search-content .search-form .secondary-button a {
@@ -2943,20 +2943,20 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
         margin-top: 0px;
         margin-bottom: 30px;
         font-size: 17px;
-        color: #1e1e1e;
+        color: #fff;
         font-weight: 700;
         text-transform: uppercase
     }
 
     .sidebar-widgets .sidebar-widget .sidebar-heading h4 em {
         font-style: normal;
-        color: #f4c23d
+        color: #2959ad
     }
 
     .sidebar-widgets .sidebar-widget .sidebar-heading h4:after {
         width: 30px;
         height: 3px;
-        background-color: #1e1e1e;
+        background-color: #fff;
         left: 0;
         top: 30px;
         position: absolute;
@@ -2970,7 +2970,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
         padding: 0px 30px 30px 30px;
         width: 100%;
-        border-top: 3px solid #f4c23d
+        border-top: 3px solid #2959ad
     }
 
     @media (max-width:991px) {
@@ -2988,8 +2988,8 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .sidebar-widgets .sidebar-widget .search-content .search-heading .icon i {
-        color: #1e1e1e;
-        background-color: #f4c23d;
+        color: #fff;
+        background-color: #2959ad;
         border-radius: 50%;
         font-size: 18px;
         width: 44px;
@@ -3004,7 +3004,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     .sidebar-widgets .sidebar-widget .search-content .search-heading .icon i:after {
         width: 44px;
         height: 3px;
-        background-color: #f4c23d;
+        background-color: #2959ad;
         position: absolute;
         left: 50%;
         -webkit-transform: translateX(-50%);
@@ -3050,7 +3050,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .sidebar-widgets .sidebar-widget .search-content .search-form input:focus {
-        border-color: #f4c23d
+        border-color: #2959ad
     }
 
     .sidebar-widgets .sidebar-widget .search-content .search-form select {
@@ -3069,11 +3069,11 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .sidebar-widgets .sidebar-widget .search-content .search-form select option {
-        color: #1e1e1e
+        color: #fff
     }
 
     .sidebar-widgets .sidebar-widget .search-content .search-form select:focus {
-        border-color: #f4c23d
+        border-color: #2959ad
     }
 
     .sidebar-widgets .sidebar-widget .search-content .search-form .secondary-button a {
@@ -3095,7 +3095,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .sidebar-widgets .sidebar-widget .search-widget input:focus {
-        border-color: #f4c23d
+        border-color: #2959ad
     }
 
     .sidebar-widgets .sidebar-widget .text-widget ul {
@@ -3110,12 +3110,12 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     .sidebar-widgets .sidebar-widget .text-widget ul li a {
         width: 38px;
         height: 38px;
-        background-color: #f4c23d;
+        background-color: #2959ad;
         display: inline-block;
         text-align: center;
         font-size: 13px;
         line-height: 38px;
-        color: #1e1e1e;
+        color: #fff;
         border-radius: 3px;
         -webkit-transition: all 0.5s;
         -o-transition: all 0.5s;
@@ -3147,7 +3147,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .sidebar-widgets .sidebar-widget .recent-posts ul li h6 {
-        color: #1e1e1e;
+        color: #fff;
         font-size: 15px;
         font-weight: 600;
         -webkit-transition: all 0.5s;
@@ -3172,7 +3172,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .sidebar-widgets .sidebar-widget .recent-posts ul li:hover h6 {
-        color: #f4c23d
+        color: #2959ad
     }
 
     .sidebar-widgets .sidebar-widget .archives ul,
@@ -3190,7 +3190,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
 
     .sidebar-widgets .sidebar-widget .archives ul li a,
     .sidebar-widgets .sidebar-widget .categories ul li a {
-        color: #1e1e1e;
+        color: #fff;
         font-size: 13px;
         font-weight: 600;
         -webkit-transition: all 0.3s;
@@ -3229,7 +3229,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
 
     .sidebar-widgets .sidebar-widget .tags ul li a {
         display: inline-block;
-        color: #1e1e1e;
+        color: #fff;
         font-size: 13px;
         font-weight: 600;
         -webkit-transition: all 0.5s;
@@ -3240,12 +3240,12 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     }
 
     .sidebar-widgets .sidebar-widget .tags ul li a:hover {
-        background-color: #f4c23d;
-        border-color: #f4c23d
+        background-color: #2959ad;
+        border-color: #2959ad
     }
 
     /* 03.06. Sidebar & Widgets Ends */
-    
+
 
     /* 03.07. Testimonials & About Us Starts */
 
@@ -3275,7 +3275,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
         font-size: 14px;
         text-transform: uppercase;
         font-weight: 600;
-        color: #f4c23d
+        color: #2959ad
     }
 
     .more-about-us .right-content h4 {
@@ -3335,7 +3335,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
 
     .testimonials .item ul li {
         display: inline-block;
-        color: #f4c23d
+        color: #2959ad
     }
 
     .testimonials .item ul li:last-child {
@@ -3446,13 +3446,13 @@ footer .footer-item h2 {
 
 footer .footer-item h2 em {
     font-style: normal;
-    color: #f4c23d
+    color: #2959ad
 }
 
 footer .footer-item h2:after {
     width: 30px;
     height: 3px;
-    background-color: #f4c23d;
+    background-color: #2959ad;
     left: 0;
     top: 30px;
     position: absolute;
@@ -3480,7 +3480,7 @@ footer .footer-item ul li a {
 }
 
 footer .footer-item ul li a:hover {
-    color: #f4c23d;
+    color: #2959ad;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s
@@ -3557,8 +3557,8 @@ footer .footer-item .about-us ul li a {
 }
 
 footer .footer-item .about-us ul li a:hover {
-    color: #1e1e1e;
-    background-color: #f4c23d
+    color: #fff;
+    background-color: #2959ad
 }
 
 footer .footer-item .our-gallery ul li {
@@ -3593,7 +3593,7 @@ footer .footer-item .quick-search input {
 
 footer .footer-item .quick-search input:focus {
     outline: none;
-    border: 1px solid #f4c23d
+    border: 1px solid #2959ad
 }
 
 footer .sub-footer {
@@ -3613,7 +3613,7 @@ footer .sub-footer p {
 }
 
 footer .sub-footer p a {
-    color: #f4c23d;
+    color: #2959ad;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s
