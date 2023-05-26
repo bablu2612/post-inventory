@@ -347,7 +347,7 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    padding: 160px 0px 80px 0px;
+    padding: 100px 0px 10px 0px;
     margin-bottom: 80px
 }
 
@@ -1757,9 +1757,12 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
     .single-car .car-details {
         text-align: left
     }
+    /* .page-heading{
+        display: none;
+    } */
 
     .single-car .car-details h4 {
-        color: #fff;
+        color: #1e1e1e;
         margin-top: 8px;
         font-size: 24px;
         font-weight: 700
