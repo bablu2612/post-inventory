@@ -503,7 +503,7 @@ section {
 }
 
 .scrolled-header #cssmenu>ul>li>a {
-    color: #fff!important
+    color: #000!important
 }
 
 .scrolled-header #cssmenu>ul>li:hover>a {
@@ -608,7 +608,7 @@ section {
     font-size: 14px;
     letter-spacing: 1px;
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-weight: 400;
     text-transform: uppercase;
     -webkit-transition: all 0.3s;
@@ -778,7 +778,7 @@ section {
 @media (max-width:767px) {
     .site-header #cssmenu>ul>li>a {
         padding: 16px 15px;
-        color: #fff
+        color: #000
     }
 }
 
@@ -3633,3 +3633,6 @@ footer .sub-footer p a:hover {
 }
 
 /* 04. Footer Ends */
+div#cssmenu{
+    display: none !important
+}
