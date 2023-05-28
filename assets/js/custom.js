@@ -29,14 +29,14 @@ $(document).ready(function() {
             $('#search').addClass('open');
             $('#search > form > input[type="search"]').focus();
         });
-        
+
         $('#search, #search button.close').on('click keyup', function(event) {
             if (event.target == this || event.target.className == 'close' || event.keyCode == 27) {
                 $(this).removeClass('open');
             }
         });
-        
-        
+
+
         //Do not include! This prevents the form from submitting for DEMO purposes only!
         $('form').submit(function(event) {
             event.preventDefault();
@@ -158,7 +158,7 @@ $(document).ready(function() {
       fade:true,
       draggable:false,
       prevArrow:'<button class="PrevArrow"></button>',
-      nextArrow:'<button class="NextArrow"></button>', 
+      nextArrow:'<button class="NextArrow"></button>',
     });
 
     // Car Details Page Gallery
@@ -261,7 +261,15 @@ $(document).ready(function() {
       title: "Menu",
       format: "multitoggle"
     });
+    $('#back_buton').click(function(){
+      window.location.href='index.html';
+   })
 
+   $("#print").click(function () {
+    //Hide all other elements other than printarea.
+    $(".recent-car-content").show();
+    window.print();
+});
 });
 
 
