@@ -39,6 +39,16 @@
 				display: none;
 			}
 		}
+
+		.chart--container {
+			min-height: 530px;
+			width: 100%;
+			height: 100%;
+		}
+
+		.zc-ref {
+			display: none;
+		}
 	</style>
 </head>
 
@@ -222,7 +232,7 @@
 							<div class="section-heading">
 
 
-								<div id='myChart'><a class="zc-ref" href="#">
+								<div id='myChart' class="chart--container"><a class="zc-ref" href="#">
 										<div class="text-content">
 											<h2>Meter Charts</h2>
 										</div>
@@ -287,114 +297,109 @@
 	<script src="assets/js/custom.js"></script>
 	<script>
 		ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "b55b025e438fa8a98e32482b5f768ff5"];
-		window.feed = function (callback) {
-			var tick = {};
-			tick.plot0 = Math.ceil(350 + (Math.random() * 500));
+		let feed = (callback) => {
+			let tick = {};
+			tick.plot0 = Math.ceil(350 + Math.random() * 500);
 			callback(JSON.stringify(tick));
 		};
 
-		var myConfig = {
-			type: "gauge",
+		let chartConfig = {
+			type: 'gauge',
 			globals: {
-				fontSize: 25
-			},
-			plotarea: {
-				marginTop: 80
+				fontSize: '25px',
 			},
 			plot: {
-				size: '100%',
+				tooltip: {
+					borderRadius: '5px',
+				},
 				valueBox: {
+					text: '%v', // default
+					fontSize: '35px',
 					placement: 'center',
-					text: '%v', //default
-					fontSize: 35,
 					rules: [{
+						text: '%v<br>EXCELLENT',
 						rule: '%v >= 700',
-						text: '%v<br>EXCELLENT'
 					},
 					{
+						text: '%v<br>Good',
 						rule: '%v < 700 && %v > 640',
-						text: '%v<br>Good'
 					},
 					{
+						text: '%v<br>Fair',
 						rule: '%v < 640 && %v > 580',
-						text: '%v<br>Fair'
 					},
 					{
+						text: '%v<br>Bad',
 						rule: '%v <  580',
-						text: '%v<br>Bad'
-					}
-					]
-				}
+					},
+					],
+				},
+				size: '100%',
 			},
-			tooltip: {
-				borderRadius: 5
+			plotarea: {
+				marginTop: '80px',
 			},
 			scaleR: {
 				aperture: 180,
-				minValue: 300,
-				maxValue: 700,
-				step: 50,
 				center: {
-					visible: false
-				},
-				tick: {
-					visible: false
+					visible: false,
 				},
 				item: {
 					offsetR: 0,
 					rules: [{
+						offsetX: '15px',
 						rule: '%i == 9',
-						offsetX: 15
-					}]
+					},],
 				},
-				// labels: ['300', '', '', '', '', '', '580', '640', '700', '750', '', '850'],
-				labels: ['300', '', '', '', '', '', '580', '640', '700'],
+				labels: ['300', '', '', '', '', '', '580', '640', '', '', '', '850'],
+				maxValue: 850,
+				minValue: 300,
 				ring: {
-					size: 50,
 					rules: [{
+						backgroundColor: '#9dc3e7',
 						rule: '%v <= 580',
-						backgroundColor: '#9dc3e7'
 					},
 					{
-						rule: '%v > 580 && %v < 640',
-						backgroundColor: '#4472c7'
+						backgroundColor: '#4472c7',
+						rule: '%v > 580 && %v < 700',
 					},
 					{
-						rule: '%v >= 640 && %v < 700',
-						backgroundColor: '#1f4e78'
+						backgroundColor: '#1f4e78',
+						rule: '%v >= 700',
 					},
-						// {
-						// 	rule: '%v >= 700',
-						// 	backgroundColor: '#29B6F6'
-						// }
-					]
-				}
+					],
+					size: '50px',
+				},
+				step: 50,
+				tick: {
+					visible: false,
+				},
 			},
 			refresh: {
-				type: "feed",
-				transport: "js",
-				url: "feed()",
+				type: 'feed',
+				url: 'feed()',
 				interval: 1500,
-				resetTimeout: 1000
+				resetTimeout: 1000,
+				transport: 'js',
 			},
 			series: [{
 				values: [755], // starting value
+				animation: {
+					effect: 'ANIMATION_EXPAND_VERTICAL',
+					method: 'ANIMATION_BACK_EASE_OUT',
+					sequence: 'null',
+					speed: 900,
+				},
 				backgroundColor: 'black',
 				indicator: [10, 10, 10, 10, 0.75],
-				animation: {
-					effect: 2,
-					method: 1,
-					sequence: 4,
-					speed: 900
-				},
-			}]
+			},],
 		};
 
 		zingchart.render({
 			id: 'myChart',
-			data: myConfig,
-			height: 500,
-			width: '100%'
+			data: chartConfig,
+			height: '100%',
+			width: '100%',
 		});
 	</script>
 </body>
