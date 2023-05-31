@@ -298,7 +298,7 @@ section {
 }
 
 .pagination-content {
-    text-align: left
+    text-align: center
 }
 
 .pagination-content ul {
@@ -1806,7 +1806,7 @@ only screen and (min-resolution:192dpi) and (max-width:1024px) {
         width: 40px;
         height: 40px;
         text-align: center;
-        line-height: 40px;
+        line-height: 20px;
         border-radius: 3px;
         background-color: #2959ad;
         color: #fff;
@@ -3664,12 +3664,12 @@ div#cssmenu{
     min-height: 150px;
   }
 
-  .zc-ref {
+  g#myChart-tools,.zc-ref ,
+  div#myChart-license-text {
     display: none;
-  }
+}
 
 
-  button#back_buton {}
 
 button.primary-button {
     display: inline-block;
@@ -3688,7 +3688,7 @@ button.primary-button {
 }
 
 .recent-car-content {
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 button#print {
@@ -3701,7 +3701,13 @@ button#print {
     max-width: calc(100%/2);
 }
 
-.single-car .car-details ul.car-info li i img {
+ul.car-info li i img {
     width: 20px;
     height: 20px;object-fit: contain;
+}
+.down-content ul.car-info li i img {
+    filter: invert(1)
+}
+.down-content ul.car-info li:hover i img{
+    filter: invert(0)
 }
