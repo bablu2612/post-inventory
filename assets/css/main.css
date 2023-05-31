@@ -3711,3 +3711,8 @@ ul.car-info li i img {
 .down-content ul.car-info li:hover i img{
     filter: invert(0)
 }
+@media (max-width: 767px){
+    .single-car .recent-car-content {
+        margin-bottom: 20px;
+    }
+}
